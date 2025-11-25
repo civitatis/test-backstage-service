@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test-backstage-service
+  description: Test service for Backstage integration
+  annotations:
+    github.com/project-slug: civitatis/test-backstage-service
+spec:
+  type: service
+  lifecycle: experimental
+  owner: platform-squad
+  system: test-system
